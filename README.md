@@ -1,6 +1,7 @@
 # study-caffe
 <ol>
-<li>https://github.com/BVLC/caffe.git</li>
+  <li>https://github.com/BVLC/caffe.git</li>
+  <li>http://caffe.berkeleyvision.org/</li>
 </ol>
 
 ## Install caffe
