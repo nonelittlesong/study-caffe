@@ -3,6 +3,7 @@
   <li>https://github.com/BVLC/caffe.git</li>
   <li>http://caffe.berkeleyvision.org/</li>
 </ol>
+
 ## Install dependencies
 ```
 sudo pip install easydict protobuf pydot
