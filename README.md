@@ -3,7 +3,12 @@
   <li>https://github.com/BVLC/caffe.git</li>
   <li>http://caffe.berkeleyvision.org/</li>
 </ol>
-
+## Install dependencies
+```
+sudo pip install easydict protobuf pydot
+sudo apt-get install graphviz libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler libopenblas-dev liblapack-dev libatlas-base-dev libgflags-dev libgoogle-glog-dev liblmdb-dev python-tk python-numpy python-scipy python-matplotlib python-sklearn python-skimage python-h5py python-protobuf python-leveldb python-networkx python-nose python-pandas python-gflags
+sudo apt-get install --no-install-recommends libboost-all-dev
+```
 ## Install caffe
 ### 下载caffe
 ```
@@ -25,8 +30,10 @@ vim Makefile.config
 </ol>
 
 ### 对于Ubuntu 16.04
+```
 CUDA_REPO_PKG=http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.61-1_amd64.deb  
 ML_REPO_PKG=http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/nvidia-machine-learning-repo-ubuntu1604_1.0.0-1_amd64.deb  
+```
 ### 安装repo包
 ```
 wget "$CUDA_REPO_PKG" -O /tmp/cuda-repo.deb && sudo dpkg -i /tmp/cuda-repo.deb && rm -f /tmp/cuda-repo.deb  
