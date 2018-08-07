@@ -23,7 +23,27 @@ vim Makefile.config
 ```
 
 ### 编译caffe
+```
+sudo mkdir build
+sudo cd build
+sudo cmake ..
+sudo make all -j16
+sudo make install -j16
+sudo make runtest -j16
+```
 ### 检查编译是否成功
+从终端进入python  
+```
+python
+import caffe
+```
+ctrl + d退出Python  
+```
+cd caffe # (如果不在这个目录下测试，会有bug，好坑)
+sudo ./data/mnist/get_mnist.sh # 下载数据
+sudo ./examples/mnist/create_mnist.sh # 把数据改造成lmdb格式
+sudo ./examples/mnist/train_lenet.sh # 训练模型
+```
 ## Install digits
 <ol>
   <li>https://github.com/NVIDIA/DIGITS</li>
