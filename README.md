@@ -44,7 +44,7 @@ sudo ./data/mnist/get_mnist.sh # 下载数据
 sudo ./examples/mnist/create_mnist.sh # 把数据改造成lmdb格式
 sudo ./examples/mnist/train_lenet.sh # 训练模型
 ```
-## 四、 Install digits
+## 三、 Install digits
 <ol>
   <li>https://github.com/NVIDIA/DIGITS</li>
   <li>https://blog.csdn.net/linyu2016/article/details/78903243</li>
@@ -75,7 +75,7 @@ http://localhost/ （这是按照sudo apt-get install digits这种方式安装�
 sudo apt-get remove digits  
 sudo apt-get autoremove  
 ```
-## 五、 解决问题
+## 四、 解决问题
 ### Cannot use GPU in CPU-only Caffe 错误
 examples/mnist/lenet_solver.prototxt 中  
 ```
