@@ -4,13 +4,13 @@
   <li>http://caffe.berkeleyvision.org/</li>
 </ol>
 
-## Install dependencies
+## 一、 Install dependencies
 ```
 sudo pip install easydict protobuf pydot
 sudo apt-get install graphviz libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler libopenblas-dev liblapack-dev libatlas-base-dev libgflags-dev libgoogle-glog-dev liblmdb-dev python-tk python-numpy python-scipy python-matplotlib python-sklearn python-skimage python-h5py python-protobuf python-leveldb python-networkx python-nose python-pandas python-gflags
 sudo apt-get install --no-install-recommends libboost-all-dev
 ```
-## Install caffe
+## 二、 Install caffe
 ### 下载caffe
 ```
 sudo git clone http://github.com/BLVC/caffe.git
@@ -44,7 +44,7 @@ sudo ./data/mnist/get_mnist.sh # 下载数据
 sudo ./examples/mnist/create_mnist.sh # 把数据改造成lmdb格式
 sudo ./examples/mnist/train_lenet.sh # 训练模型
 ```
-## Install digits
+## 四、 Install digits
 <ol>
   <li>https://github.com/NVIDIA/DIGITS</li>
   <li>https://blog.csdn.net/linyu2016/article/details/78903243</li>
@@ -75,7 +75,7 @@ http://localhost/ （这是按照sudo apt-get install digits这种方式安装�
 sudo apt-get remove digits  
 sudo apt-get autoremove  
 ```
-## 解决问题
+## 五、 解决问题
 ### Cannot use GPU in CPU-only Caffe 错误
 examples/mnist/lenet_solver.prototxt 中  
 ```
