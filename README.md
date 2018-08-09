@@ -10,6 +10,15 @@ sudo pip install easydict protobuf pydot
 sudo apt-get install graphviz libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler libopenblas-dev liblapack-dev libatlas-base-dev libgflags-dev libgoogle-glog-dev liblmdb-dev python-tk python-numpy python-scipy python-matplotlib python-sklearn python-skimage python-h5py python-protobuf python-leveldb python-networkx python-nose python-pandas python-gflags
 sudo apt-get install --no-install-recommends libboost-all-dev
 ```
+抛错1：  
+```
+Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/easydict'
+Consider using the `--user` option or check the permissions.
+```
+解决方法：  
+```
+pip install --user easydict
+```
 ## 二、 Install caffe
 ### 下载caffe
 ```
