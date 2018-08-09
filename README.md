@@ -43,6 +43,8 @@ $ sudo make install -j16
 $ sudo make runtest -j16
 ```
 ### 检查编译是否成功
+在.zshrc末尾添加：  
+export PYTHONPATH=/home/song/caffe/python  
 从终端进入python  
 ```
 $ python
