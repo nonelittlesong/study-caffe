@@ -13,7 +13,7 @@ sudo apt-get install --no-install-recommends libboost-all-dev
 ## 二、 Install caffe
 ### 下载caffe
 ```
-sudo git clone http://github.com/BLVC/caffe.git
+sudo git clone https://github.com/BLVC/caffe.git
 ```
 ### 配置caffe
 ```
