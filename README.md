@@ -22,18 +22,18 @@ Consider using the `--user` option or check the permissions.
 $ pip install --user easydict
 ```
 ## 二、 Install caffe
-### 下载caffe
+**下载caffe**  
 ```
 $ sudo git clone https://github.com/BVLC/caffe.git
 ```
-### 配置caffe
+**配置caffe**  
 ```
 $ cd ~/caffe
 $ cp Makefile.config.example Makefile.config
 $ vim Makefile.config
 ```
 
-### 编译caffe
+**编译caffe**  
 ```
 $ sudo mkdir build
 $ sudo cd build
@@ -42,7 +42,7 @@ $ sudo make all -j16
 $ sudo make install -j16
 $ sudo make runtest -j16
 ```
-### 检查编译是否成功
+**检查编译是否成功**  
 在.zshrc末尾添加：  
 export PYTHONPATH=/home/song/caffe/python  
 从终端进入python  
@@ -68,21 +68,21 @@ $ sudo ./examples/mnist/train_lenet.sh # 训练模型
 $ CUDA_REPO_PKG=http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.61-1_amd64.deb  
 $ ML_REPO_PKG=http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/nvidia-machine-learning-repo-ubuntu1604_1.0.0-1_amd64.deb  
 ```
-### 安装repo包
+**安装repo包**  
 ```
 $ wget "$CUDA_REPO_PKG" -O /tmp/cuda-repo.deb && sudo dpkg -i /tmp/cuda-repo.deb && rm -f /tmp/cuda-repo.deb  
 $ wget "$ML_REPO_PKG" -O /tmp/ml-repo.deb && sudo dpkg -i /tmp/ml-repo.deb && rm -f /tmp/ml-repo.deb  
 ```
-### 安装digits
+**安装digits**  
 ```
 $ sudo apt-get update #安装digits  
 $ sudo apt-get install digits #首选方式，这种方法只是安装digits5.0.0版本，bug比较小，官网说这个就已经自动附带安装很多依赖
 ```
-### 启动digits
+**启动digits**  
 在浏览器中填入：  
 http://localhost/ （这是按照sudo apt-get install digits这种方式安装的打开方法）  
 按回车即可  
-### 卸载digits
+**卸载digits**  
 比较容易卸载  
 ```
 $ sudo apt-get remove digits  
