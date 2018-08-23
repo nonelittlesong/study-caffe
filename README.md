@@ -4,6 +4,9 @@
   <li>http://caffe.berkeleyvision.org/</li>
 </ol>
 
+*wiki*
+* 训练alexnet
+
 ## 一、 Install dependencies
 ```
 $ sudo pip install easydict protobuf pydot
