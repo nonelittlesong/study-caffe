@@ -5,7 +5,7 @@
 </ol>
 
 *wiki*
-* 训练alexnet
+* [训练alexnet](https://github.com/nonelittlesong/study-caffe/wiki/%E8%AE%AD%E7%BB%83alexnet)
 
 ## 一、 Install dependencies
 ```
