@@ -103,3 +103,4 @@ solver_mode:GPU
 #solver mode:CPU or GPU
 solver_mode:CPU
 ```
+### Could NOT find HDF5 (missing: HDF5_HL_LIBRARIES) (found version "1.10.0.1")
