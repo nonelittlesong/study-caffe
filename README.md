@@ -104,4 +104,8 @@ solver_mode:GPU
 #solver mode:CPU or GPU
 solver_mode:CPU
 ```
+### 再次编译caffe时出错
+>protobuf compiler 和 protobuf 版本不一致  
+
+删除并重建build文件夹  
 ### Could NOT find HDF5 (missing: HDF5_HL_LIBRARIES) (found version "1.10.0.1")
