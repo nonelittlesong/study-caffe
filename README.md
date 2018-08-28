@@ -12,7 +12,7 @@
 $ sudo pip install easydict protobuf pydot
 $ sudo apt-get install graphviz libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler libopenblas-dev liblapack-dev libatlas-base-dev libgflags-dev libgoogle-glog-dev liblmdb-dev python-tk python-numpy python-scipy python-matplotlib python-sklearn python-skimage python-h5py python-protobuf python-leveldb python-networkx python-nose python-pandas python-gflags
 # 执行完上面这一句后生成了/usr/bin/protoc
-# 且pkg-config --modversion protobuf的结果为2.6.1 (ubuntu10.04为3.0.0)
+# 且pkg-config --modversion protobuf的结果为2.6.1 (ubuntu18.04为3.0.0)
 $ sudo apt-get install --no-install-recommends libboost-all-dev
 ```
 抛错1：  
