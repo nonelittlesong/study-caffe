@@ -38,17 +38,18 @@ $ vim Makefile.config
 
 **编译caffe**  
 ```
-$ sudo mkdir build
-$ sudo cd build
-$ sudo cmake ..
-$ sudo make all -j16
-$ sudo make install -j16
-$ sudo make runtest -j16
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make all -j16
+$ make install -j16
+$ make runtest -j16
 ```
 **检查编译是否成功**  
 在.zshrc末尾添加：  
 export PYTHONPATH=/home/song/caffe/python  
 从终端进入python  
+**不必配置PYTHONPATH（可能我还没用到）**  
 ```
 $ python
 $ import caffe
