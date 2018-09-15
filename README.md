@@ -116,3 +116,5 @@ solver_mode:CPU
 对于ubuntu18.04的hdf5来说，太low了  
 通过`sudo apt install cmake`升级到3.10  
 当然，别忘了删除软连接：/usr/local/bin/cmake  
+### OpenCV配置
+在caffe根目录，`vim cmake/Dependencies.cmake`  
