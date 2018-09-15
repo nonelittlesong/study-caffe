@@ -118,3 +118,10 @@ solver_mode:CPU
 当然，别忘了删除软连接：/usr/local/bin/cmake  
 ### OpenCV配置
 在caffe根目录，`vim cmake/Dependencies.cmake`  
+找到opencv相关配置  
+添加：  
+```
+set(OpenCV_DIR /usr/local/share/OpenCV)
+...
+set(OpenCV_FOUND 1)
+```
