@@ -112,3 +112,7 @@ solver_mode:CPU
 删除并重建build文件夹  
 ### Could NOT find HDF5 (missing: HDF5_HL_LIBRARIES) (found version "1.10.0.1")
 治不了，告辞。  
+2018.09.15，治好了：我的cmake是ln -s的AndroidStudio的cmake，版本是3.6  
+对于ubuntu18.04的hdf5来说，太low了  
+通过`sudo apt install cmake`升级到3.10  
+当然，别忘了删除软连接：/usr/local/bin/cmake  
