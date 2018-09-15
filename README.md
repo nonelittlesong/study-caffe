@@ -125,3 +125,5 @@ set(OpenCV_DIR /usr/local/share/OpenCV)
 ...
 set(OpenCV_FOUND 1)
 ```
+### ffmpeg
+ubuntu18.04 caffe在make all的时候找不到ffmpeg相关的库  
