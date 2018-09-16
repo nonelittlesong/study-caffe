@@ -127,3 +127,4 @@ set(OpenCV_FOUND 1)
 ```
 ### ffmpeg
 ubuntu18.04 caffe在make all的时候找不到ffmpeg相关的库  
+无能为力了，只能退回ubuntu16.04。
