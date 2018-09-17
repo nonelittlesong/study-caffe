@@ -29,7 +29,7 @@ $ pip install --user easydict
 ## 二、 Install caffe
 **下载caffe**  
 ```
-$ sudo git clone https://github.com/BVLC/caffe.git
+$ git clone https://github.com/BVLC/caffe.git
 ```
 **配置caffe**  
 ```
