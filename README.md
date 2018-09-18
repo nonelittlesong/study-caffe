@@ -130,3 +130,12 @@ set(OpenCV_FOUND 1)
 ### ffmpeg
 ubuntu18.04 caffe在make all的时候找不到ffmpeg相关的库  
 无能为力了，只能退回ubuntu16.04。
+
+### SolverParameter
+ubuntu16：将caffe修改为多标签，重新编译caffe  
+>src/caffe/solver.cpp:116:38: error: ‘class caffe::SolverParameter’ has no member named ‘weights_size’  
+>src/caffe/solver.cpp:117:33: error: ‘class caffe::SolverParameter’ has no member named ‘weights’  
+
+原因可能是因为错误地修改了caffe内部的文件导致的  
+但是通过删除caffe重新下载编译  
+编译通过  
