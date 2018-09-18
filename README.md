@@ -139,3 +139,6 @@ ubuntu16：将caffe修改为多标签，重新编译caffe
 原因可能是因为错误地修改了caffe内部的文件导致的  
 但是通过删除caffe重新下载编译  
 编译通过  
+
+### Accuracy波动大
+base_lr 或 momentum 过大？？
