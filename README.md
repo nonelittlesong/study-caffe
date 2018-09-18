@@ -94,7 +94,7 @@ http://localhost/ （这是按照sudo apt-get install digits这种方式安装�
 $ sudo apt-get remove digits  
 $ sudo apt-get autoremove  
 ```
-## 四、 解决问题
+## 四、 Troubleshooting
 ### Cannot use GPU in CPU-only Caffe 错误
 examples/mnist/lenet_solver.prototxt 中  
 ```
