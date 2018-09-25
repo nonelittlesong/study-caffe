@@ -56,6 +56,7 @@ $ python
 $ import caffe
 ```
 ctrl + d退出Python  
+重启电脑  
 ```
 $ cd caffe # (如果不在这个目录下测试，会有bug，好坑)
 $ sudo ./data/mnist/get_mnist.sh # 下载数据
