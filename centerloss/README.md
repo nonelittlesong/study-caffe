@@ -35,3 +35,7 @@ $ make all
 $ make install
 $ make runtest
 ```
+
+## CenterLoss的使用
+CenterLoss不能单独使用，需要和SoftmaxWithLoss联合使用。  
+设置loss_weight: 0.5  
