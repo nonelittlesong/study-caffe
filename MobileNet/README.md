@@ -12,6 +12,4 @@
 ```
 $ make clean
 $ make all
-$ make install
-$ make runtest
 ```
