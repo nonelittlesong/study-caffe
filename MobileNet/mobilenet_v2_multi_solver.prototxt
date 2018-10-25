@@ -1,0 +1,17 @@
+net: "/home/ubuntu/workspace/train_model/mobilenet_v2_multi_label/mobilenet_v2_multi_train.prototxt"
+test_iter: 1567
+test_interval: 28200
+base_lr: 0.0005
+momentum: 0.9
+weight_decay: 0.0005
+lr_policy: "multistep"
+gamma: 0.5
+stepvalue: 86400
+stepvalue: 169200
+stepvalue: 252000
+stepvalue: 282000
+display: 2000
+max_iter: 338400
+snapshot: 28200
+snapshot_prefix: "/home/ubuntu/workspace/train_model/mobilenet_v2_multi_label/Song_results/"
+solver_mode: GPU
