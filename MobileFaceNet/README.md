@@ -15,3 +15,10 @@ TODO:
 
 ## 配置DepthwiseConvolution
 * https://github.com/yonghenglh6/DepthwiseConvolution
+
+## 重新編譯caffe.pb.cc caffe.pb.h:
+```
+$ cd YOUR_CAFFE_ROOT_PATH/src/caffe/proto
+$ protoc --cpp_out=/YOUR_CAFFE_ROOT_PATH/src/caffe/proto caffe.proto
+$ cp /YOUR_CAFFE_ROOT_PATH/src/proto/caffe.pb.h /YOUR_CAFFE_ROOT_PATH/include/caffe/proto/caffe.ph.h
+```
