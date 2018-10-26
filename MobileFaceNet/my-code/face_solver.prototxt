@@ -1,0 +1,22 @@
+net: "/home/ubuntu/workspace/Song/MobileFaceNet.prototxt"
+
+test_iter: 1567
+test_interval: 28200
+
+base_lr: 0.1
+lr_policy: "multistep"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+
+stepvalue: 86400
+stepvalue: 169200
+stepvalue: 252000
+stepvalue: 282000
+max_iter:  338400
+
+display: 2000
+snapshot: 28200
+snapshot_prefix: "face_snapshot/MobileFaceNet_16w_0pt3_model"
+
+solver_mode: GPU
