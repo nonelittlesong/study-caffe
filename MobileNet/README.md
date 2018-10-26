@@ -1,3 +1,5 @@
+参考：  
+* https://github.com/shicai/MobileNet-Caffe
 
 ## caffe 添加ConvolutionDepthwise 层
 
