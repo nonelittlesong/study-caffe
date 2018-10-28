@@ -4,7 +4,7 @@
   <li>http://caffe.berkeleyvision.org/</li>
 </ol>
 
-**wiki**  
+*wiki*  
 * [训练alexnet](https://github.com/nonelittlesong/study-caffe/wiki/%E8%AE%AD%E7%BB%83alexnet)
 * [labelImg标注数据](https://github.com/nonelittlesong/study-caffe/wiki/LabelImg)
 
