@@ -22,3 +22,6 @@ $ cd YOUR_CAFFE_ROOT_PATH/src/caffe/proto
 $ protoc --cpp_out=/YOUR_CAFFE_ROOT_PATH/src/caffe/proto caffe.proto
 $ cp /YOUR_CAFFE_ROOT_PATH/src/proto/caffe.pb.h /YOUR_CAFFE_ROOT_PATH/include/caffe/proto/caffe.ph.h
 ```
+
+## 修改了 scale 和 innerproduct
+
