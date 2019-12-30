@@ -107,9 +107,16 @@ solver_mode:GPU
 solver_mode:CPU
 ```
 ### 再次编译caffe时出错
->protobuf compiler 和 protobuf 版本不一致  
-
+```diff
+- protobuf compiler 和 protobuf 版本不一致
+```
 删除并重建build文件夹  
+
+```diff
+- 某文件由旧版生成
+```
+make clean  
+
 ### Could NOT find HDF5 (missing: HDF5_HL_LIBRARIES) (found version "1.10.0.1")
 治不了，告辞。  
 2018.09.15，治好了：我的cmake是ln -s的AndroidStudio的cmake，版本是3.6  
